@@ -1,0 +1,175 @@
+body{
+    background-color: darkgrey;
+    padding: 30px;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: blue;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerimage{
+    padding-left: 100px;
+}
+.headerflex{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    margin: 20px;
+}
+li{
+    list-style: none;
+    margin-left: 10px;
+    color: white;
+    margin: 0px 20px;
+}
+.body{
+    background-color: purple;
+    height: 400px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.bodyy h1{
+    line-height: 15px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+.bodyy a{
+    text-decoration: none;
+    color: yellow;
+    cursor: text;
+}
+.body p{
+    padding-right: 55%;
+    color: white;
+    margin-bottom: 50px;
+}
+.button button{
+    width: 15%;
+    height: 40px;
+    background-color: rgb(219, 85, 61);
+    border: 1px solid rgb(219, 85, 61);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    background-color: #fff;
+    height: 750px;
+    padding: 30px 50px;
+}
+.container h1{
+    text-align: center;
+    padding: 0px 30%;
+    color: #5d5470;
+    font-size: 40px;
+}
+fieldset{
+    background-color: white;
+}
+.faduel{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px 2px #e7e2e2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fieldset_1{
+    margin-left: 40px;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    border-right: 2px solid #ebe0e0;
+}
+.faduel_1{
+    margin-right: 60px;
+    margin-left: -20px;
+}
+.fieldset_2{
+    margin-left: 40px;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    border-right: 2px solid #ebe0e0;
+}
+.faduel_2{
+    line-height: 3px;
+    margin-top: -13px;
+    margin-bottom: -13px;   
+    margin-right: 60px; 
+}
+.faduel_2 a{
+    text-decoration: none;
+    color: red;
+    font-weight: 800;
+    font-size: 18px;
+}
+.fieldset_3{
+    margin-left: 40px;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    border-right: 2px solid #ebe0e0;
+}
+.faduel_3{
+    margin-top: -6px;
+    margin-bottom: -6px;
+    margin-right: 60px;
+}
+.fieldset_4{
+    margin-left: 40px;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+}
+.faduel_4{
+    align-items: center;
+}
+.faduel_4  button{
+    width: 200px;
+    height: 40px;
+    background-color: #ee1111;
+    border: 3px solid #ee1111;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.fieldset_4 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+input{
+    accent-color: green;
+}
+.footer{
+    height: 60px;
+    width: 100%;
+    background-color: blue;
+    padding-top: 5px;
+    padding-top: 5px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+footer h1{
+    text-align: end;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-right: 20px;
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+}
